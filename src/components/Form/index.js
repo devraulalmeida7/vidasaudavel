@@ -56,7 +56,7 @@ export default function Form() {
                 }} 
                 >
                 
-                <Text style={styles.textbuttonCalculator}>{textButton}</Text>
+                <Text style={styles.textButtonCalculator}>{textButton}</Text>
                 
             </TouchableOpacity>
         </View>

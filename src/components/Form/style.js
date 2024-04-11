@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "100%",
     bottom: 0,
-    backgroundColor: '#fff',
+    backgroundColor: '#ffffff',
     alignItems: "center",
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
@@ -34,6 +34,10 @@ const styles = StyleSheet.create({
   textButtonCalculator: {
     fontSize: 20,
     color: "#ffffff",
+    paddingHorizontal: "2rem",
+    paddingVertical: "1rem",
+    backgroundColor: "crimson",
+    borderRadius: 10,
   },
   buttonCalculator: {
     borderRadius: 50,
