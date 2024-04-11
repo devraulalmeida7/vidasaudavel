@@ -7,5 +7,12 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         padding: 10,
      },
+     textTitle: {
+      fontSize: 28,
+      fontWeight: 'bold',
+      color: "FF0043",
+     }
      
 })
+
+export default styles
