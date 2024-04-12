@@ -5,6 +5,7 @@ import styles from "./style";
 
 export default function Form() {
 
+    // Variáveis para o cálculo do IMC
     const[altura, setAltura] = useState(null)
     const[peso, setPeso] = useState(null)
     const[messageImc, setMessageImc] = useState("Preencha a altura e o peso")
@@ -30,6 +31,9 @@ export default function Form() {
         setMessageImc("Preencha a altura e o peso")
     }
 
+
+
+    // retornando os componentes para o App.js
     return(
         <View style={styles.formContext}>
         <View style={styles.form}>

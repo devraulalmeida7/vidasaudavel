@@ -2,6 +2,8 @@ import { StyleSheet } from "react-native-web";
 
 
 const styles = StyleSheet.create({
+
+  /*CSS FORM */
   formContext:{
     width: "100%",
     height: "100%",
@@ -23,6 +25,8 @@ const styles = StyleSheet.create({
     fontSize: 18,
     paddingLeft: 20,
   },
+
+  /*CSS Entrada de Dados (input & button) */
   input:{
     width: "90%",
     borderRadius: 50,
