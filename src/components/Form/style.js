@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     marginTop: 30,
     padding: 10,
   },
-  formLabel: {
+  formLabels: {
     color: "#000000",
     fontSize: 18,
     paddingLeft: 20,
